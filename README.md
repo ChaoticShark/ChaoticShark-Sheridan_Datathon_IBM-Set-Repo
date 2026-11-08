@@ -1,10 +1,43 @@
-# Hackermen: Before the Breach
+# Before the Breach
 
-**IBM track, Sheridan Datathon 2026.** We predict which newly published vulnerabilities attackers will actually use, and tell engineers what to fix first and why. IBM Granite explains every top-ranked CVE, and every explanation is fact-checked.
+**Know which security flaws attackers will use next, before they do.**
 
-> **Live dashboard:** [chaoticshark.github.io/…/dashboard.html](https://chaoticshark.github.io/ChaoticShark-Sheridan_Datathon_IBM-Set-Repo/dashboard.html) (no install; it opens on a six-step "Start here" story).
->
-> **Judges:** start with [MODEL_CARD.md](MODEL_CARD.md) (the model on one page) and [COLUMNS_USED.md](COLUMNS_USED.md) (which data we used and why). You can also open `dashboard.html` locally in any browser; it works offline.
+Every year tens of thousands of new software security flaws are announced, far more than any team can fix. Only a small fraction (about 1 in 750) is ever used in a real attack. Before the Breach ranks every new flaw by how likely attackers are to use it, explains each one in plain language, and tells you what to fix first.
+
+### 👉 [Try the live dashboard](https://chaoticshark.github.io/ChaoticShark-Sheridan_Datathon_IBM-Set-Repo/dashboard.html)
+No installation or sign-up. It opens in your browser and walks you through the story in six short steps.
+
+## Who it's for
+| If you are… | You get… |
+|---|---|
+| **A security or IT team** | A ranked "fix now" list of 500 flaws, the evidence behind each one, and an alert for when a lower-priority flaw should move up |
+| **A business owner or everyday user** | A Plain English mode with simple traffic lights (update now / keep an eye on), and a search box that answers "do I need to worry about this app?" |
+| **Someone choosing suppliers** | A scorecard of which software vendors carry the most predicted risk this year |
+
+## Does it work?
+We tested it fairly: we trained it only on 2024 information, then checked its predictions for 2025 against the US government's official list of flaws confirmed as used in attacks.
+- **It caught more real attacks:** 18 among its top picks, where the best standard method caught 14 (about 30% more) and sorting by severity score caught 8.
+- **It gave early warning:** typically about **5 weeks** before the attack was officially confirmed.
+- **It saves effort:** a team fixing 200 flaws a month would have covered **33 of the 52** attacked flaws with our list, versus 22 with the best standard method. Matching our result the standard way takes about 3 times the work.
+
+## Why you can trust it
+- **Every ranking comes with its reasons**, so you can see why a flaw is ranked high.
+- **Explanations are written by IBM Granite AI and fact-checked automatically.** The AI is not allowed to claim something has already been attacked, or to invent numbers.
+- **We removed data that would have let it "cheat"**, then proved the test was fair with automated checks that anyone can re-run.
+- **Private by design:** the dashboard runs in your browser, and the list of software you use is never sent anywhere.
+
+## Jargon, in one line each
+- **CVE:** the official ID for a publicly announced security flaw (e.g. CVE-2026-0265).
+- **CISA KEV:** the US Cybersecurity and Infrastructure Security Agency's list of flaws confirmed as exploited in real attacks.
+- **CVSS:** a 0–10 severity score. It says how bad a flaw *could* be, not how likely it is to be used.
+- **EPSS:** a public estimate of the chance a flaw gets exploited soon.
+- **Exploit code:** published instructions or tools for attacking a flaw.
+
+---
+
+# For technical reviewers
+
+**IBM track, Sheridan Datathon 2026 (Team Hackermen).** Start with [MODEL_CARD.md](MODEL_CARD.md) (the model on one page) and [COLUMNS_USED.md](COLUMNS_USED.md) (which data we used and why). `dashboard.html` also works offline when opened locally.
 
 ## The problem in one line
 Over 92,000 CVEs were published in 2026. In 2024–25 only about 1 in 750 was later confirmed exploited. In our 2025 test, ranking by severity (CVSS) or by EPSS found only 8 exploited CVEs in a top 500.
