@@ -1,0 +1,32 @@
+{
+  "weights": {
+    "kw_wp_plugin": -2.297,
+    "kw_dos": -2.051,
+    "text_score": 1.192,
+    "age": -0.748,
+    "kev_product_log": 0.35,
+    "epss_missing": 0.347,
+    "any_exploit_code": 0.328,
+    "kev_vendor_log": -0.302,
+    "kw_xss": 0.289,
+    "kw_local": -0.286,
+    "assigner_rate_log": 0.279,
+    "kw_cmd_inj": 0.279,
+    "kw_needs_auth": 0.253,
+    "kw_auth_bypass": 0.25,
+    "kw_edge": 0.243,
+    "kw_remote": -0.16,
+    "epss_log": 0.132,
+    "kw_user_click": -0.132,
+    "kev_sim_max": 0.123,
+    "nuclei": 0.115,
+    "exploitdb": 0.115,
+    "poc_github": 0.086,
+    "cvss4": 0.07,
+    "metasploit": 0.055,
+    "kw_rce": 0.012
+  },
+  "train_rows": 226504,
+  "train_pos": 368,
+  "knowledge_cutoff": "2025-12-31"
+}

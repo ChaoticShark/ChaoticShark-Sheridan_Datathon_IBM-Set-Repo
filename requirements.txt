@@ -1,0 +1,6 @@
+# Python 3.12+ (developed on 3.14)
+pandas==3.1.1
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+# IBM Granite runs through Ollama (https://ollama.com): ollama pull granite4:3b ; ollama pull granite-embedding:30m

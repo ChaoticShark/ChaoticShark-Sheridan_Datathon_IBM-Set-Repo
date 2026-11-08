@@ -1,0 +1,11 @@
+# Datathon data (850 MB, download data.zip from the organisers into data/)
+data/*.csv
+data/cache/
+# run logs
+results/*.log
+__pycache__/
+*.pyc
+data/*.md
+# private notes
+VIDEO_SCRIPT.md
+JUDGE_QA.md

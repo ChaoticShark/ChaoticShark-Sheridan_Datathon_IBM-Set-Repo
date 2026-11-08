@@ -1,0 +1,218 @@
+{
+  "pool": 64119,
+  "positives": 85,
+  "base_rate": 0.0013256601007501677,
+  "pos_share_no_exploit_code": 0.6,
+  "pos_share_epss_below_1pct": 0.8588235294117647,
+  "pos_share_no_code_and_low_epss": 0.6,
+  "feature_lifts": {
+    "any_exploit_code": {
+      "n": 1393,
+      "positives": 34,
+      "rate": 0.024407753050969132,
+      "lift": 18.411773151471643
+    },
+    "kw_auth_bypass": {
+      "n": 4922,
+      "positives": 32,
+      "rate": 0.00650142218610321,
+      "lift": 4.904290460597078
+    },
+    "kw_deserial": {
+      "n": 750,
+      "positives": 4,
+      "rate": 0.005333333333333333,
+      "lift": 4.023152941176471
+    },
+    "kw_path_trav": {
+      "n": 1416,
+      "positives": 7,
+      "rate": 0.0049435028248587575,
+      "lift": 3.7290877367896313
+    },
+    "kw_rce": {
+      "n": 5598,
+      "positives": 24,
+      "rate": 0.004287245444801715,
+      "lift": 3.2340457726498957
+    },
+    "kw_privesc": {
+      "n": 1916,
+      "positives": 7,
+      "rate": 0.0036534446764091857,
+      "lift": 2.7559437553727126
+    },
+    "vendor_matched": {
+      "n": 23979,
+      "positives": 73,
+      "rate": 0.003044330455815505,
+      "lift": 2.29646381760511
+    },
+    "kw_edge": {
+      "n": 2375,
+      "positives": 7,
+      "rate": 0.0029473684210526317,
+      "lift": 2.223321362229102
+    },
+    "kw_cmd_inj": {
+      "n": 1865,
+      "positives": 5,
+      "rate": 0.002680965147453083,
+      "lift": 2.0223624034064027
+    },
+    "kw_user_click": {
+      "n": 2661,
+      "positives": 6,
+      "rate": 0.002254791431792559,
+      "lift": 1.700882021354201
+    },
+    "kw_needs_auth": {
+      "n": 8911,
+      "positives": 18,
+      "rate": 0.0020199753114128606,
+      "lift": 1.52375055285272
+    },
+    "kw_memory": {
+      "n": 3479,
+      "positives": 7,
+      "rate": 0.002012072434607646,
+      "lift": 1.5177890874659723
+    },
+    "kw_remote": {
+      "n": 11306,
+      "positives": 22,
+      "rate": 0.0019458694498496374,
+      "lift": 1.4678494500577517
+    },
+    "kw_browser": {
+      "n": 971,
+      "positives": 1,
+      "rate": 0.0010298661174047373,
+      "lift": 0.7768704186102865
+    },
+    "kw_sqli": {
+      "n": 4996,
+      "positives": 3,
+      "rate": 0.0006004803843074459,
+      "lift": 0.4529670795459897
+    },
+    "kw_local": {
+      "n": 2854,
+      "positives": 1,
+      "rate": 0.000350385423966363,
+      "lift": 0.2643101529329321
+    },
+    "kw_xss": {
+      "n": 11755,
+      "positives": 2,
+      "rate": 0.00017014036580178648,
+      "lift": 0.12834388370405583
+    },
+    "kw_upload": {
+      "n": 925,
+      "positives": 0,
+      "rate": 0.0,
+      "lift": 0.0
+    },
+    "kw_dos": {
+      "n": 2722,
+      "positives": 0,
+      "rate": 0.0,
+      "lift": 0.0
+    },
+    "kw_wp_plugin": {
+      "n": 6232,
+      "positives": 0,
+      "rate": 0.0,
+      "lift": 0.0
+    }
+  },
+  "assigner_lifts": {
+    "vulncheck.com": {
+      "n": 436,
+      "positives": 9,
+      "lift": 15.571262817053427
+    },
+    "hackerone.com": {
+      "n": 199,
+      "positives": 2,
+      "lift": 7.581318356488324
+    },
+    "apache.org": {
+      "n": 363,
+      "positives": 3,
+      "lift": 6.234224598930481
+    },
+    "fortinet.com": {
+      "n": 255,
+      "positives": 2,
+      "lift": 5.916401384083044
+    },
+    "samsung.com": {
+      "n": 398,
+      "positives": 2,
+      "lift": 3.790659178244162
+    },
+    "microsoft.com": {
+      "n": 1683,
+      "positives": 7,
+      "lift": 3.1374855824682815
+    },
+    "gitlab.com": {
+      "n": 267,
+      "positives": 1,
+      "lift": 2.8252478519497686
+    },
+    "google.com": {
+      "n": 546,
+      "positives": 2,
+      "lift": 2.7631544925662572
+    },
+    "adobe.com": {
+      "n": 1104,
+      "positives": 4,
+      "lift": 2.7331202046035803
+    },
+    "mitre.org": {
+      "n": 8321,
+      "positives": 12,
+      "lift": 1.087861328884396
+    },
+    "trendmicro.com": {
+      "n": 1407,
+      "positives": 2,
+      "lift": 1.0722689075630252
+    },
+    "github.com": {
+      "n": 3552,
+      "positives": 5,
+      "lift": 1.06185413354531
+    }
+  },
+  "pos_share_vendor_already_in_kev": 0.6705882352941176,
+  "all_share_vendor_already_in_kev": 0.3659289758106022,
+  "top_positive_vendors": {
+    "microsoft": 7,
+    "ivanti": 5,
+    "adobe": 4,
+    "vmware": 4,
+    "progress": 3,
+    "apache": 3,
+    "google": 2,
+    "fortinet": 2,
+    "solarwinds": 2,
+    "sonicwall": 2,
+    "ptzoptics": 2,
+    "advantive": 2
+  },
+  "leak_analyzed_share": {
+    "exploited": 1.0,
+    "others": 0.7388574819627073
+  },
+  "leak_nvd_cvss_share": {
+    "exploited": 0.6470588235294118,
+    "others": 0.4822125745697598
+  },
+  "critical_cvss_count": 8269,
+  "critical_cvss_hit_rate": 0.004716410690530899
+}

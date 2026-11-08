@@ -1,0 +1,233 @@
+{
+  "train_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "train_label_cutoff": "2024-12-31",
+  "train_knowledge_cutoff": "2023-12-31",
+  "train_rows": 110510,
+  "train_positive_rows": 122,
+  "test_months": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09"
+  ],
+  "test_label_cutoff": "2025-12-31",
+  "test_knowledge_cutoff": "2024-12-31",
+  "test_pool": 35280,
+  "test_positives": 52,
+  "k_scaled": 243,
+  "results": {
+    "Highest CVSS 3 first": {
+      "hits@500": 8,
+      "hits@243 (benchmark-scaled)": 8,
+      "hits@1000": 14
+    },
+    "EPSS first": {
+      "hits@500": 8,
+      "hits@243 (benchmark-scaled)": 8,
+      "hits@1000": 13
+    },
+    "Public exploit code first, then EPSS": {
+      "hits@500": 18,
+      "hits@243 (benchmark-scaled)": 14,
+      "hits@1000": 22
+    },
+    "Ours (no vendor cap)": {
+      "hits@500": 22,
+      "hits@243 (benchmark-scaled)": 18,
+      "hits@1000": 25
+    },
+    "Ours": {
+      "hits@500": 22,
+      "hits@243 (benchmark-scaled)": 18,
+      "hits@1000": 25
+    }
+  },
+  "bootstrap": {
+    "vs exploit-code baseline @243": {
+      "p_ours_better": 0.912,
+      "diff_p05": 0.0,
+      "diff_median": 4.0,
+      "diff_p95": 8.0
+    },
+    "vs exploit-code baseline @500": {
+      "p_ours_better": 0.815,
+      "diff_p05": -2.0,
+      "diff_median": 3.0,
+      "diff_p95": 8.0
+    }
+  },
+  "per_month": [
+    {
+      "month": "2025-01",
+      "pool": 4267,
+      "positives": 7,
+      "k": 29,
+      "Highest CVSS 3 first": 0,
+      "EPSS first": 1,
+      "Public exploit code first, then EPSS": 1,
+      "Ours (no vendor cap)": 1,
+      "Ours": 1
+    },
+    {
+      "month": "2025-02",
+      "pool": 3664,
+      "positives": 6,
+      "k": 25,
+      "Highest CVSS 3 first": 1,
+      "EPSS first": 0,
+      "Public exploit code first, then EPSS": 1,
+      "Ours (no vendor cap)": 1,
+      "Ours": 1
+    },
+    {
+      "month": "2025-03",
+      "pool": 3982,
+      "positives": 7,
+      "k": 27,
+      "Highest CVSS 3 first": 1,
+      "EPSS first": 2,
+      "Public exploit code first, then EPSS": 2,
+      "Ours (no vendor cap)": 3,
+      "Ours": 3
+    },
+    {
+      "month": "2025-04",
+      "pool": 4024,
+      "positives": 5,
+      "k": 28,
+      "Highest CVSS 3 first": 3,
+      "EPSS first": 3,
+      "Public exploit code first, then EPSS": 3,
+      "Ours (no vendor cap)": 4,
+      "Ours": 4
+    },
+    {
+      "month": "2025-05",
+      "pool": 3967,
+      "positives": 6,
+      "k": 27,
+      "Highest CVSS 3 first": 0,
+      "EPSS first": 1,
+      "Public exploit code first, then EPSS": 2,
+      "Ours (no vendor cap)": 3,
+      "Ours": 3
+    },
+    {
+      "month": "2025-06",
+      "pool": 3674,
+      "positives": 8,
+      "k": 25,
+      "Highest CVSS 3 first": 1,
+      "EPSS first": 1,
+      "Public exploit code first, then EPSS": 3,
+      "Ours (no vendor cap)": 3,
+      "Ours": 3
+    },
+    {
+      "month": "2025-07",
+      "pool": 3768,
+      "positives": 2,
+      "k": 26,
+      "Highest CVSS 3 first": 0,
+      "EPSS first": 0,
+      "Public exploit code first, then EPSS": 0,
+      "Ours (no vendor cap)": 0,
+      "Ours": 0
+    },
+    {
+      "month": "2025-08",
+      "pool": 3621,
+      "positives": 5,
+      "k": 25,
+      "Highest CVSS 3 first": 1,
+      "EPSS first": 0,
+      "Public exploit code first, then EPSS": 1,
+      "Ours (no vendor cap)": 1,
+      "Ours": 1
+    },
+    {
+      "month": "2025-09",
+      "pool": 4313,
+      "positives": 6,
+      "k": 30,
+      "Highest CVSS 3 first": 0,
+      "EPSS first": 0,
+      "Public exploit code first, then EPSS": 2,
+      "Ours (no vendor cap)": 3,
+      "Ours": 3
+    }
+  ],
+  "features": [
+    "epss_log",
+    "epss_missing",
+    "any_exploit_code",
+    "poc_github",
+    "nuclei",
+    "metasploit",
+    "exploitdb",
+    "text_score",
+    "assigner_rate_log",
+    "kev_vendor_log",
+    "kev_product_log",
+    "cvss4",
+    "kw_auth_bypass",
+    "kw_edge",
+    "kw_rce",
+    "kw_cmd_inj",
+    "kw_dos",
+    "kw_xss",
+    "kw_wp_plugin",
+    "kw_remote",
+    "kw_local",
+    "kw_needs_auth",
+    "kw_user_click",
+    "age",
+    "kev_sim_max"
+  ],
+  "weights": {
+    "kw_wp_plugin": -2.697,
+    "kw_dos": -2.38,
+    "text_score": 2.039,
+    "age": -1.799,
+    "kw_local": -1.532,
+    "any_exploit_code": 1.026,
+    "kw_user_click": 0.679,
+    "kw_edge": 0.536,
+    "epss_log": 0.525,
+    "kw_auth_bypass": 0.478,
+    "kw_rce": -0.394,
+    "kev_product_log": 0.375,
+    "epss_missing": 0.287,
+    "kw_needs_auth": 0.248,
+    "cvss4": 0.244,
+    "kw_remote": -0.234,
+    "exploitdb": -0.148,
+    "poc_github": -0.129,
+    "assigner_rate_log": -0.115,
+    "nuclei": 0.082,
+    "metasploit": -0.071,
+    "kev_sim_max": 0.059,
+    "kw_xss": 0.043,
+    "kev_vendor_log": -0.018,
+    "kw_cmd_inj": -0.0
+  },
+  "vendor_cap": 10
+}

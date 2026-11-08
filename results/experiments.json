@@ -1,0 +1,77 @@
+{
+  "BASELINE Highest CVSS 3 first": {
+    "hits@500": 8,
+    "hits@243": 8,
+    "hits@1000": 14
+  },
+  "BASELINE EPSS first": {
+    "hits@500": 8,
+    "hits@243": 8,
+    "hits@1000": 13
+  },
+  "BASELINE Public exploit code first, then EPSS": {
+    "hits@500": 18,
+    "hits@243": 14,
+    "hits@1000": 22
+  },
+  "Text prior only": {
+    "hits@500": 14,
+    "hits@243": 9,
+    "hits@1000": 23
+  },
+  "LR C=0.01 train 2024-01..09": {
+    "hits@500": 20,
+    "hits@243": 12,
+    "hits@1000": 25
+  },
+  "LR C=0.01 train 2024-01..12": {
+    "hits@500": 23,
+    "hits@243": 17,
+    "hits@1000": 31
+  },
+  "LR C=0.01 train 2024 + fast positives": {
+    "hits@500": 22,
+    "hits@243": 14,
+    "hits@1000": 27
+  },
+  "LR C=0.05 train 2024-01..09": {
+    "hits@500": 18,
+    "hits@243": 14,
+    "hits@1000": 24
+  },
+  "LR C=0.05 train 2024-01..12": {
+    "hits@500": 23,
+    "hits@243": 16,
+    "hits@1000": 30
+  },
+  "LR C=0.05 train 2024 + fast positives": {
+    "hits@500": 21,
+    "hits@243": 12,
+    "hits@1000": 25
+  },
+  "LR C=0.2 train 2024-01..09": {
+    "hits@500": 17,
+    "hits@243": 15,
+    "hits@1000": 23
+  },
+  "LR C=0.2 train 2024-01..12": {
+    "hits@500": 21,
+    "hits@243": 16,
+    "hits@1000": 29
+  },
+  "LR C=0.2 train 2024 + fast positives": {
+    "hits@500": 18,
+    "hits@243": 12,
+    "hits@1000": 24
+  },
+  "GBM train 2024 + fast": {
+    "hits@500": 18,
+    "hits@243": 11,
+    "hits@1000": 28
+  },
+  "Blend: rank(text)+rank(epss)+code+vendor": {
+    "hits@500": 8,
+    "hits@243": 7,
+    "hits@1000": 13
+  }
+}

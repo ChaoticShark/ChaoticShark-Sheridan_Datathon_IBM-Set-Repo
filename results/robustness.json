@@ -1,0 +1,162 @@
+{
+  "main: train 2024 -> test 2025 Jan-Sep": {
+    "train_positive_rows": 122,
+    "test_pool": 35280,
+    "test_positives": 52,
+    "k_scaled": 243,
+    "results": {
+      "BASELINE Highest CVSS 3 first": {
+        "hits@243 (scaled)": 8,
+        "hits@500": 8
+      },
+      "BASELINE EPSS first": {
+        "hits@243 (scaled)": 8,
+        "hits@500": 8
+      },
+      "BASELINE Public exploit code first, then EPSS": {
+        "hits@243 (scaled)": 14,
+        "hits@500": 18
+      },
+      "current model (with vendor cap)": {
+        "hits@243 (scaled)": 18,
+        "hits@500": 22
+      },
+      "current, no vendor cap": {
+        "hits@243 (scaled)": 18,
+        "hits@500": 22
+      },
+      "without nearest-KEV similarity": {
+        "hits@243 (scaled)": 18,
+        "hits@500": 22
+      },
+      "+ similarity top5 too": {
+        "hits@243 (scaled)": 18,
+        "hits@500": 21
+      },
+      "+ vendor_matched back": {
+        "hits@243 (scaled)": 19,
+        "hits@500": 22
+      }
+    }
+  },
+  "second: train 2024 Jan-Jun -> test 2024 Jul-Sep": {
+    "train_positive_rows": 33,
+    "test_pool": 8498,
+    "test_positives": 12,
+    "k_scaled": 58,
+    "results": {
+      "BASELINE Highest CVSS 3 first": {
+        "hits@58 (scaled)": 0,
+        "hits@500": 1
+      },
+      "BASELINE EPSS first": {
+        "hits@58 (scaled)": 0,
+        "hits@500": 1
+      },
+      "BASELINE Public exploit code first, then EPSS": {
+        "hits@58 (scaled)": 1,
+        "hits@500": 4
+      },
+      "current model (with vendor cap)": {
+        "hits@58 (scaled)": 4,
+        "hits@500": 6
+      },
+      "current, no vendor cap": {
+        "hits@58 (scaled)": 2,
+        "hits@500": 6
+      },
+      "without nearest-KEV similarity": {
+        "hits@58 (scaled)": 4,
+        "hits@500": 5
+      },
+      "+ similarity top5 too": {
+        "hits@58 (scaled)": 4,
+        "hits@500": 6
+      },
+      "+ vendor_matched back": {
+        "hits@58 (scaled)": 4,
+        "hits@500": 6
+      }
+    }
+  },
+  "quarterly: 2025-Q2 (train <= 2025-03, labels <= 2025-03-31)": {
+    "train_positive_rows": 198,
+    "test_pool": 11665,
+    "test_positives": 19,
+    "k_scaled": 80,
+    "results": {
+      "BASELINE Highest CVSS 3 first": {
+        "hits@80 (scaled)": 3,
+        "hits@500": 5
+      },
+      "BASELINE EPSS first": {
+        "hits@80 (scaled)": 6,
+        "hits@500": 9
+      },
+      "BASELINE Public exploit code first, then EPSS": {
+        "hits@80 (scaled)": 9,
+        "hits@500": 12
+      },
+      "current model (with vendor cap)": {
+        "hits@80 (scaled)": 11,
+        "hits@500": 15
+      },
+      "current, no vendor cap": {
+        "hits@80 (scaled)": 10,
+        "hits@500": 15
+      },
+      "without nearest-KEV similarity": {
+        "hits@80 (scaled)": 11,
+        "hits@500": 15
+      },
+      "+ similarity top5 too": {
+        "hits@80 (scaled)": 10,
+        "hits@500": 15
+      },
+      "+ vendor_matched back": {
+        "hits@80 (scaled)": 10,
+        "hits@500": 16
+      }
+    }
+  },
+  "quarterly: 2025-Q3 (train <= 2025-06, labels <= 2025-06-30)": {
+    "train_positive_rows": 278,
+    "test_pool": 11702,
+    "test_positives": 13,
+    "k_scaled": 81,
+    "results": {
+      "BASELINE Highest CVSS 3 first": {
+        "hits@81 (scaled)": 1,
+        "hits@500": 4
+      },
+      "BASELINE EPSS first": {
+        "hits@81 (scaled)": 0,
+        "hits@500": 2
+      },
+      "BASELINE Public exploit code first, then EPSS": {
+        "hits@81 (scaled)": 2,
+        "hits@500": 5
+      },
+      "current model (with vendor cap)": {
+        "hits@81 (scaled)": 1,
+        "hits@500": 6
+      },
+      "current, no vendor cap": {
+        "hits@81 (scaled)": 1,
+        "hits@500": 6
+      },
+      "without nearest-KEV similarity": {
+        "hits@81 (scaled)": 1,
+        "hits@500": 6
+      },
+      "+ similarity top5 too": {
+        "hits@81 (scaled)": 1,
+        "hits@500": 6
+      },
+      "+ vendor_matched back": {
+        "hits@81 (scaled)": 2,
+        "hits@500": 6
+      }
+    }
+  }
+}

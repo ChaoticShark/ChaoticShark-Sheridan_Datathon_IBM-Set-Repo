@@ -1,0 +1,1371 @@
+{
+  "pool": 35280,
+  "k": 243,
+  "positives": 52,
+  "month_pool": {
+    "2025-01": 4267,
+    "2025-02": 3664,
+    "2025-03": 3982,
+    "2025-04": 4024,
+    "2025-05": 3967,
+    "2025-06": 3674,
+    "2025-07": 3768,
+    "2025-08": 3621,
+    "2025-09": 4313
+  },
+  "note": "Rank at the end of the CVE's publish month, using only data known then. lead_days = days from that month end to CISA adding it to KEV.",
+  "cves": [
+    {
+      "id": "CVE-2025-5777",
+      "month": "2025-06",
+      "published": "2025-06-17",
+      "kev_added": "2025-07-10",
+      "lead_days": 10,
+      "vendor": "citrix",
+      "product": "netscaler",
+      "epss": 0.0005499999999999998,
+      "code": 1,
+      "desc": "Insufficient input validation leading to memory overread when the NetScaler is configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server",
+      "ranks": {
+        "Highest CVSS 3 first": 11973,
+        "EPSS first": 6575,
+        "Public exploit code first, then EPSS": 385,
+        "Ours (no vendor cap)": 12,
+        "Ours": 12
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1397,
+        "EPSS first": 836,
+        "Public exploit code first, then EPSS": 46,
+        "Ours (no vendor cap)": 2,
+        "Ours": 2
+      }
+    },
+    {
+      "id": "CVE-2025-24813",
+      "month": "2025-03",
+      "published": "2025-03-10",
+      "kev_added": "2025-04-01",
+      "lead_days": 1,
+      "vendor": "apache",
+      "product": "",
+      "epss": 0.88822,
+      "code": 1,
+      "desc": "Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files via write enabled Default Servlet in Apache Tomcat. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.",
+      "ranks": {
+        "Highest CVSS 3 first": 200,
+        "EPSS first": 2,
+        "Public exploit code first, then EPSS": 2,
+        "Ours (no vendor cap)": 21,
+        "Ours": 21
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 13,
+        "EPSS first": 1,
+        "Public exploit code first, then EPSS": 1,
+        "Ours (no vendor cap)": 2,
+        "Ours": 2
+      }
+    },
+    {
+      "id": "CVE-2025-32433",
+      "month": "2025-04",
+      "published": "2025-04-16",
+      "kev_added": "2025-06-09",
+      "lead_days": 40,
+      "vendor": "erlang",
+      "product": "erlang/otp",
+      "epss": 0.036239999999999994,
+      "code": 1,
+      "desc": "Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor co",
+      "ranks": {
+        "Highest CVSS 3 first": 8,
+        "EPSS first": 165,
+        "Public exploit code first, then EPSS": 80,
+        "Ours (no vendor cap)": 24,
+        "Ours": 24
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3,
+        "EPSS first": 23,
+        "Public exploit code first, then EPSS": 14,
+        "Ours (no vendor cap)": 1,
+        "Ours": 1
+      }
+    },
+    {
+      "id": "CVE-2025-4008",
+      "month": "2025-05",
+      "published": "2025-05-21",
+      "kev_added": "2025-10-02",
+      "lead_days": 124,
+      "vendor": "meteobridge",
+      "product": "meteobridge",
+      "epss": 0.0034799999999999987,
+      "code": 1,
+      "desc": "The Meteobridge web interface let meteobridge administrator manage their weather station data collection and administer their meteobridge system through a web application written in CGI shell scripts and C. This web interface exposes an endpoint that is vulnerable to command injection. Remote unauth",
+      "ranks": {
+        "Highest CVSS 3 first": 4825,
+        "EPSS first": 988,
+        "Public exploit code first, then EPSS": 180,
+        "Ours (no vendor cap)": 25,
+        "Ours": 25
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 760,
+        "EPSS first": 136,
+        "Public exploit code first, then EPSS": 28,
+        "Ours (no vendor cap)": 7,
+        "Ours": 7
+      }
+    },
+    {
+      "id": "CVE-2025-34028",
+      "month": "2025-04",
+      "published": "2025-04-22",
+      "kev_added": "2025-05-02",
+      "lead_days": 2,
+      "vendor": "commvault",
+      "product": "command center",
+      "epss": 0.04235,
+      "code": 1,
+      "desc": "The Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files that represent install packages that, when expanded by the target server, are vulnerable to path traversal vulnerability that can result in Remote Code Execution via malicious JSP. This issue affects ",
+      "ranks": {
+        "Highest CVSS 3 first": 7,
+        "EPSS first": 145,
+        "Public exploit code first, then EPSS": 74,
+        "Ours (no vendor cap)": 50,
+        "Ours": 50
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 2,
+        "EPSS first": 22,
+        "Public exploit code first, then EPSS": 13,
+        "Ours (no vendor cap)": 4,
+        "Ours": 4
+      }
+    },
+    {
+      "id": "CVE-2025-2776",
+      "month": "2025-05",
+      "published": "2025-05-07",
+      "kev_added": "2025-07-22",
+      "lead_days": 52,
+      "vendor": "sysaid",
+      "product": "sysaid on-prem",
+      "epss": 0.11026000000000001,
+      "code": 1,
+      "desc": "SysAid On-Prem versions <= 23.3.40 are vulnerable to an unauthenticated XML External Entity (XXE) vulnerability in the Server URL processing functionality, allowing for administrator account takeover and file read primitives.",
+      "ranks": {
+        "Highest CVSS 3 first": 219,
+        "EPSS first": 78,
+        "Public exploit code first, then EPSS": 47,
+        "Ours (no vendor cap)": 58,
+        "Ours": 58
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 32,
+        "EPSS first": 25,
+        "Public exploit code first, then EPSS": 8,
+        "Ours (no vendor cap)": 9,
+        "Ours": 9
+      }
+    },
+    {
+      "id": "CVE-2025-48703",
+      "month": "2025-09",
+      "published": "2025-09-19",
+      "kev_added": "2025-11-04",
+      "lead_days": 35,
+      "vendor": "cwp",
+      "product": "control web panel",
+      "epss": 0.00158,
+      "code": 1,
+      "desc": "CWP (aka Control Web Panel or CentOS Web Panel) before 0.9.8.1205 allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.",
+      "ranks": {
+        "Highest CVSS 3 first": 4631,
+        "EPSS first": 2031,
+        "Public exploit code first, then EPSS": 249,
+        "Ours (no vendor cap)": 62,
+        "Ours": 62
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 498,
+        "EPSS first": 299,
+        "Public exploit code first, then EPSS": 26,
+        "Ours (no vendor cap)": 10,
+        "Ours": 10
+      }
+    },
+    {
+      "id": "CVE-2025-6218",
+      "month": "2025-06",
+      "published": "2025-06-21",
+      "kev_added": "2025-12-09",
+      "lead_days": 162,
+      "vendor": "rarlab",
+      "product": "winrar",
+      "epss": 0.006489999999999998,
+      "code": 1,
+      "desc": "RARLAB WinRAR Directory Traversal Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of RARLAB WinRAR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a ",
+      "ranks": {
+        "Highest CVSS 3 first": 8519,
+        "EPSS first": 596,
+        "Public exploit code first, then EPSS": 149,
+        "Ours (no vendor cap)": 66,
+        "Ours": 66
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1095,
+        "EPSS first": 65,
+        "Public exploit code first, then EPSS": 16,
+        "Ours (no vendor cap)": 7,
+        "Ours": 7
+      }
+    },
+    {
+      "id": "CVE-2025-24472",
+      "month": "2025-02",
+      "published": "2025-02-11",
+      "kev_added": "2025-03-18",
+      "lead_days": 18,
+      "vendor": "fortinet",
+      "product": "fortios",
+      "epss": 0.0004300000000000001,
+      "code": 0,
+      "desc": "An Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS 7.0.0 through 7.0.16 and FortiProxy 7.2.0 through 7.2.12, 7.0.0 through 7.0.19 may allow a remote unauthenticated attacker with prior knowledge of upstream and downstream devices serial numbers to g",
+      "ranks": {
+        "Highest CVSS 3 first": 8171,
+        "EPSS first": 13275,
+        "Public exploit code first, then EPSS": 13488,
+        "Ours (no vendor cap)": 70,
+        "Ours": 69
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 597,
+        "EPSS first": 2243,
+        "Public exploit code first, then EPSS": 2248,
+        "Ours (no vendor cap)": 4,
+        "Ours": 4
+      }
+    },
+    {
+      "id": "CVE-2025-2775",
+      "month": "2025-05",
+      "published": "2025-05-07",
+      "kev_added": "2025-07-22",
+      "lead_days": 52,
+      "vendor": "sysaid",
+      "product": "sysaid on-prem",
+      "epss": 0.06555,
+      "code": 1,
+      "desc": "SysAid On-Prem versions <= 23.3.40 are vulnerable to an unauthenticated XML External Entity (XXE) vulnerability in the Checkin processing functionality, allowing for administrator account takeover and file read primitives.",
+      "ranks": {
+        "Highest CVSS 3 first": 11174,
+        "EPSS first": 108,
+        "Public exploit code first, then EPSS": 62,
+        "Ours (no vendor cap)": 88,
+        "Ours": 86
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1447,
+        "EPSS first": 32,
+        "Public exploit code first, then EPSS": 10,
+        "Ours (no vendor cap)": 12,
+        "Ours": 12
+      }
+    },
+    {
+      "id": "CVE-2025-9242",
+      "month": "2025-09",
+      "published": "2025-09-17",
+      "kev_added": "2025-11-12",
+      "lead_days": 43,
+      "vendor": "watchguard",
+      "product": "",
+      "epss": 0.0029800000000000004,
+      "code": 0,
+      "desc": "An Out-of-bounds Write vulnerability in the WatchGuard Fireware OS iked process may allow a remote unauthenticated attacker to execute arbitrary code. This vulnerability affects both the mobile user VPN with IKEv2 and the branch office VPN using IKEv2 when configured with a dynamic gateway peer. If ",
+      "ranks": {
+        "Highest CVSS 3 first": 553,
+        "EPSS first": 1155,
+        "Public exploit code first, then EPSS": 1726,
+        "Ours (no vendor cap)": 90,
+        "Ours": 88
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 67,
+        "EPSS first": 165,
+        "Public exploit code first, then EPSS": 247,
+        "Ours (no vendor cap)": 13,
+        "Ours": 13
+      }
+    },
+    {
+      "id": "CVE-2025-54253",
+      "month": "2025-08",
+      "published": "2025-08-05",
+      "kev_added": "2025-10-15",
+      "lead_days": 45,
+      "vendor": "adobe",
+      "product": "",
+      "epss": 0.0064399999999999995,
+      "code": 1,
+      "desc": "Adobe Experience Manager versions 6.5.23 and earlier are affected by a Misconfiguration vulnerability that could result in arbitrary code execution. An attacker could leverage this vulnerability to bypass security mechanisms and execute code. Exploitation of this issue does not require user interact",
+      "ranks": {
+        "Highest CVSS 3 first": 12,
+        "EPSS first": 603,
+        "Public exploit code first, then EPSS": 151,
+        "Ours (no vendor cap)": 101,
+        "Ours": 98
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1,
+        "EPSS first": 117,
+        "Public exploit code first, then EPSS": 23,
+        "Ours (no vendor cap)": 19,
+        "Ours": 19
+      }
+    },
+    {
+      "id": "CVE-2025-54236",
+      "month": "2025-09",
+      "published": "2025-09-09",
+      "kev_added": "2025-10-24",
+      "lead_days": 24,
+      "vendor": "adobe",
+      "product": "",
+      "epss": 0.003329999999999999,
+      "code": 1,
+      "desc": "Adobe Commerce versions 2.4.9-alpha2, 2.4.8-p2, 2.4.7-p7, 2.4.6-p12, 2.4.5-p14, 2.4.4-p15 and earlier are affected by an Improper Input Validation vulnerability. A successful attacker can abuse this to achieve session takeover, increasing the confidentiality, and integrity impact to high. Exploitati",
+      "ranks": {
+        "Highest CVSS 3 first": 4263,
+        "EPSS first": 1058,
+        "Public exploit code first, then EPSS": 182,
+        "Ours (no vendor cap)": 114,
+        "Ours": 111
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 468,
+        "EPSS first": 146,
+        "Public exploit code first, then EPSS": 18,
+        "Ours (no vendor cap)": 15,
+        "Ours": 15
+      }
+    },
+    {
+      "id": "CVE-2025-27363",
+      "month": "2025-03",
+      "published": "2025-03-11",
+      "kev_added": "2025-05-06",
+      "lead_days": 36,
+      "vendor": "freetype",
+      "product": "freetype",
+      "epss": 0.041139999999999996,
+      "code": 1,
+      "desc": "An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a s",
+      "ranks": {
+        "Highest CVSS 3 first": 7802,
+        "EPSS first": 148,
+        "Public exploit code first, then EPSS": 75,
+        "Ours (no vendor cap)": 118,
+        "Ours": 115
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 845,
+        "EPSS first": 25,
+        "Public exploit code first, then EPSS": 20,
+        "Ours (no vendor cap)": 7,
+        "Ours": 7
+      }
+    },
+    {
+      "id": "CVE-2025-5086",
+      "month": "2025-06",
+      "published": "2025-06-02",
+      "kev_added": "2025-09-11",
+      "lead_days": 73,
+      "vendor": "delmia",
+      "product": "delmia apriso",
+      "epss": 0.18937,
+      "code": 1,
+      "desc": "A deserialization of untrusted data vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could lead to a remote code execution.",
+      "ranks": {
+        "Highest CVSS 3 first": 4622,
+        "EPSS first": 30,
+        "Public exploit code first, then EPSS": 28,
+        "Ours (no vendor cap)": 122,
+        "Ours": 119
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 539,
+        "EPSS first": 4,
+        "Public exploit code first, then EPSS": 4,
+        "Ours (no vendor cap)": 16,
+        "Ours": 16
+      }
+    },
+    {
+      "id": "CVE-2025-3248",
+      "month": "2025-04",
+      "published": "2025-04-07",
+      "kev_added": "2025-05-05",
+      "lead_days": 5,
+      "vendor": "langflow",
+      "product": "langflow",
+      "epss": 0.83493,
+      "code": 1,
+      "desc": "Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code.",
+      "ranks": {
+        "Highest CVSS 3 first": 201,
+        "EPSS first": 4,
+        "Public exploit code first, then EPSS": 4,
+        "Ours (no vendor cap)": 125,
+        "Ours": 122
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 27,
+        "EPSS first": 1,
+        "Public exploit code first, then EPSS": 1,
+        "Ours (no vendor cap)": 16,
+        "Ours": 16
+      }
+    },
+    {
+      "id": "CVE-2024-57727",
+      "month": "2025-01",
+      "published": "2025-01-15",
+      "kev_added": "2025-02-13",
+      "lead_days": 13,
+      "vendor": "simplehelp",
+      "product": "simplehelp",
+      "epss": 0.00466,
+      "code": 1,
+      "desc": "SimpleHelp remote support software v5.5.7 and before is vulnerable to multiple path traversal vulnerabilities that enable unauthenticated remote attackers to download arbitrary files from the SimpleHelp host via crafted HTTP requests. These files include server configuration files containing various",
+      "ranks": {
+        "Highest CVSS 3 first": 11218,
+        "EPSS first": 760,
+        "Public exploit code first, then EPSS": 160,
+        "Ours (no vendor cap)": 186,
+        "Ours": 181
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1022,
+        "EPSS first": 2,
+        "Public exploit code first, then EPSS": 2,
+        "Ours (no vendor cap)": 15,
+        "Ours": 15
+      }
+    },
+    {
+      "id": "CVE-2024-58136",
+      "month": "2025-04",
+      "published": "2025-04-10",
+      "kev_added": "2025-05-02",
+      "lead_days": 2,
+      "vendor": "yii",
+      "product": "",
+      "epss": 0.0007000000000000001,
+      "code": 0,
+      "desc": "Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.",
+      "ranks": {
+        "Highest CVSS 3 first": 1286,
+        "EPSS first": 4780,
+        "Public exploit code first, then EPSS": 5195,
+        "Ours (no vendor cap)": 192,
+        "Ours": 185
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 145,
+        "EPSS first": 616,
+        "Public exploit code first, then EPSS": 659,
+        "Ours (no vendor cap)": 25,
+        "Ours": 25
+      }
+    },
+    {
+      "id": "CVE-2025-2747",
+      "month": "2025-03",
+      "published": "2025-03-24",
+      "kev_added": "2025-10-20",
+      "lead_days": 203,
+      "vendor": "kentico",
+      "product": "xperience",
+      "epss": 0.0011800000000000003,
+      "code": 0,
+      "desc": "An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server component password handling for the server defined None type. Authentication bypass allows an attacker to control administrative objects.This issue affects Xperience through 13.0.178.",
+      "ranks": {
+        "Highest CVSS 3 first": 882,
+        "EPSS first": 2730,
+        "Public exploit code first, then EPSS": 3218,
+        "Ours (no vendor cap)": 369,
+        "Ours": 369
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 111,
+        "EPSS first": 311,
+        "Public exploit code first, then EPSS": 349,
+        "Ours (no vendor cap)": 27,
+        "Ours": 27
+      }
+    },
+    {
+      "id": "CVE-2025-9377",
+      "month": "2025-08",
+      "published": "2025-08-29",
+      "kev_added": "2025-09-03",
+      "lead_days": 3,
+      "vendor": "parental",
+      "product": "",
+      "epss": 0.004519999999999999,
+      "code": 0,
+      "desc": "The authenticated remote command execution (RCE) vulnerability exists in the Parental Control page on TP-Link Archer C7(EU) V2 and TL-WR841N/ND(MS) V9. This issue affects Archer C7(EU) V2: before 241108 and TL-WR841N/ND(MS) V9: before 241108. Both products have reached the status of EOL (end-of-life",
+      "ranks": {
+        "Highest CVSS 3 first": 13997,
+        "EPSS first": 779,
+        "Public exploit code first, then EPSS": 1377,
+        "Ours (no vendor cap)": 378,
+        "Ours": 378
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1525,
+        "EPSS first": 155,
+        "Public exploit code first, then EPSS": 221,
+        "Ours (no vendor cap)": 72,
+        "Ours": 72
+      }
+    },
+    {
+      "id": "CVE-2025-2746",
+      "month": "2025-03",
+      "published": "2025-03-24",
+      "kev_added": "2025-10-20",
+      "lead_days": 203,
+      "vendor": "kentico",
+      "product": "xperience",
+      "epss": 0.0011800000000000003,
+      "code": 0,
+      "desc": "An authentication bypass vulnerability in Kentico Xperience allows authentication bypass via the Staging Sync Server password handling of empty SHA1 usernames in digest authentication. Authentication bypass allows an attacker to control administrative objects.This issue affects Xperience through 13.",
+      "ranks": {
+        "Highest CVSS 3 first": 881,
+        "EPSS first": 2729,
+        "Public exploit code first, then EPSS": 3217,
+        "Ours (no vendor cap)": 446,
+        "Ours": 446
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 110,
+        "EPSS first": 310,
+        "Public exploit code first, then EPSS": 348,
+        "Ours (no vendor cap)": 31,
+        "Ours": 31
+      }
+    },
+    {
+      "id": "CVE-2025-6554",
+      "month": "2025-06",
+      "published": "2025-06-30",
+      "kev_added": "2025-07-02",
+      "lead_days": 2,
+      "vendor": "google",
+      "product": "chrome",
+      "epss": null,
+      "code": 0,
+      "desc": "Type confusion in V8 in Google Chrome prior to 138.0.7204.96 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
+      "ranks": {
+        "Highest CVSS 3 first": 8341,
+        "EPSS first": 35032,
+        "Public exploit code first, then EPSS": 35032,
+        "Ours (no vendor cap)": 484,
+        "Ours": 484
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1076,
+        "EPSS first": 3632,
+        "Public exploit code first, then EPSS": 3632,
+        "Ours (no vendor cap)": 50,
+        "Ours": 50
+      }
+    },
+    {
+      "id": "CVE-2025-41244",
+      "month": "2025-09",
+      "published": "2025-09-29",
+      "kev_added": "2025-10-30",
+      "lead_days": 30,
+      "vendor": "vmware",
+      "product": "vmware aria operations and vmware tools",
+      "epss": 0.00014000000000000004,
+      "code": 1,
+      "desc": "VMware Aria Operations and VMware Tools contain a local privilege escalation vulnerability. A malicious local actor with non-administrative privileges having access to a VM with VMware Tools installed and managed by Aria Operations with SDMP enabled may exploit this vulnerability to escalate privile",
+      "ranks": {
+        "Highest CVSS 3 first": 10309,
+        "EPSS first": 29987,
+        "Public exploit code first, then EPSS": 730,
+        "Ours (no vendor cap)": 657,
+        "Ours": 657
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1218,
+        "EPSS first": 3813,
+        "Public exploit code first, then EPSS": 93,
+        "Ours (no vendor cap)": 92,
+        "Ours": 92
+      }
+    },
+    {
+      "id": "CVE-2025-48927",
+      "month": "2025-05",
+      "published": "2025-05-28",
+      "kev_added": "2025-07-01",
+      "lead_days": 31,
+      "vendor": "telemessage",
+      "product": "",
+      "epss": 0.00027999999999999987,
+      "code": 0,
+      "desc": "The TeleMessage service through 2025-05-05 configures Spring Boot Actuator with an exposed heap dump endpoint at a /heapdump URI, as exploited in the wild in May 2025.",
+      "ranks": {
+        "Highest CVSS 3 first": 29541,
+        "EPSS first": 23633,
+        "Public exploit code first, then EPSS": 23734,
+        "Ours (no vendor cap)": 740,
+        "Ours": 740
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3364,
+        "EPSS first": 2648,
+        "Public exploit code first, then EPSS": 2660,
+        "Ours (no vendor cap)": 62,
+        "Ours": 62
+      }
+    },
+    {
+      "id": "CVE-2025-35939",
+      "month": "2025-05",
+      "published": "2025-05-07",
+      "kev_added": "2025-06-02",
+      "lead_days": 2,
+      "vendor": "craft cms",
+      "product": "craft cms",
+      "epss": 0.0014600000000000001,
+      "code": 0,
+      "desc": "Craft CMS stores arbitrary content provided by unauthenticated users in session files. This content could be accessed and executed, possibly using an independent vulnerability. Craft CMS redirects requests that require authentication to the login page and generates a session file on the server at '/",
+      "ranks": {
+        "Highest CVSS 3 first": 28610,
+        "EPSS first": 2243,
+        "Public exploit code first, then EPSS": 2743,
+        "Ours (no vendor cap)": 942,
+        "Ours": 942
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3269,
+        "EPSS first": 278,
+        "Public exploit code first, then EPSS": 326,
+        "Ours (no vendor cap)": 82,
+        "Ours": 82
+      }
+    },
+    {
+      "id": "CVE-2024-13159",
+      "month": "2025-01",
+      "published": "2025-01-14",
+      "kev_added": "2025-03-10",
+      "lead_days": 38,
+      "vendor": "ivanti",
+      "product": "",
+      "epss": 0.0004300000000000001,
+      "code": 0,
+      "desc": "Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated attacker to leak sensitive information.",
+      "ranks": {
+        "Highest CVSS 3 first": 12525,
+        "EPSS first": 11269,
+        "Public exploit code first, then EPSS": 11549,
+        "Ours (no vendor cap)": 1415,
+        "Ours": 1415
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1142,
+        "EPSS first": 1314,
+        "Public exploit code first, then EPSS": 1352,
+        "Ours (no vendor cap)": 173,
+        "Ours": 173
+      }
+    },
+    {
+      "id": "CVE-2024-13160",
+      "month": "2025-01",
+      "published": "2025-01-14",
+      "kev_added": "2025-03-10",
+      "lead_days": 38,
+      "vendor": "ivanti",
+      "product": "",
+      "epss": 0.0004300000000000001,
+      "code": 0,
+      "desc": "Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated attacker to leak sensitive information.",
+      "ranks": {
+        "Highest CVSS 3 first": 12526,
+        "EPSS first": 11270,
+        "Public exploit code first, then EPSS": 11550,
+        "Ours (no vendor cap)": 1416,
+        "Ours": 1416
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1143,
+        "EPSS first": 1315,
+        "Public exploit code first, then EPSS": 1353,
+        "Ours (no vendor cap)": 174,
+        "Ours": 174
+      }
+    },
+    {
+      "id": "CVE-2024-13161",
+      "month": "2025-01",
+      "published": "2025-01-14",
+      "kev_added": "2025-03-10",
+      "lead_days": 38,
+      "vendor": "ivanti",
+      "product": "",
+      "epss": 0.0004300000000000001,
+      "code": 0,
+      "desc": "Absolute path traversal in Ivanti EPM before the 2024 January-2025 Security Update and 2022 SU6 January-2025 Security Update allows a remote unauthenticated attacker to leak sensitive information.",
+      "ranks": {
+        "Highest CVSS 3 first": 12527,
+        "EPSS first": 11271,
+        "Public exploit code first, then EPSS": 11551,
+        "Ours (no vendor cap)": 1417,
+        "Ours": 1417
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1144,
+        "EPSS first": 1316,
+        "Public exploit code first, then EPSS": 1354,
+        "Ours (no vendor cap)": 175,
+        "Ours": 175
+      }
+    },
+    {
+      "id": "CVE-2025-48928",
+      "month": "2025-05",
+      "published": "2025-05-28",
+      "kev_added": "2025-07-01",
+      "lead_days": 31,
+      "vendor": "telemessage",
+      "product": "",
+      "epss": 0.00011999999999999995,
+      "code": 0,
+      "desc": "The TeleMessage service through 2025-05-05 is based on a JSP application in which the heap content is roughly equivalent to a \"core dump\" in which a password previously sent over HTTP would be included in this dump, as exploited in the wild in May 2025.",
+      "ranks": {
+        "Highest CVSS 3 first": 33057,
+        "EPSS first": 30862,
+        "Public exploit code first, then EPSS": 30884,
+        "Ours (no vendor cap)": 1466,
+        "Ours": 1466
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3750,
+        "EPSS first": 3842,
+        "Public exploit code first, then EPSS": 3843,
+        "Ours (no vendor cap)": 129,
+        "Ours": 129
+      }
+    },
+    {
+      "id": "CVE-2025-20281",
+      "month": "2025-06",
+      "published": "2025-06-25",
+      "kev_added": "2025-07-28",
+      "lead_days": 28,
+      "vendor": "cisco",
+      "product": "",
+      "epss": 0.0010900000000000005,
+      "code": 1,
+      "desc": "A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying operating system as root. The attacker does not require any valid credentials to exploit this vulnerability. This vulnerability is due to insuf",
+      "ranks": {
+        "Highest CVSS 3 first": 40,
+        "EPSS first": 2999,
+        "Public exploit code first, then EPSS": 281,
+        "Ours (no vendor cap)": 1564,
+        "Ours": 1564
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 7,
+        "EPSS first": 448,
+        "Public exploit code first, then EPSS": 36,
+        "Ours (no vendor cap)": 152,
+        "Ours": 152
+      }
+    },
+    {
+      "id": "CVE-2024-54085",
+      "month": "2025-03",
+      "published": "2025-03-11",
+      "kev_added": "2025-06-25",
+      "lead_days": 86,
+      "vendor": "ami",
+      "product": "",
+      "epss": 0.001,
+      "code": 0,
+      "desc": "AMI\u2019s SPx contains a vulnerability in the BMC where an Attacker may bypass authentication remotely through the Redfish Host Interface. A successful exploitation of this vulnerability may lead to a loss of confidentiality, integrity, and/or availability.",
+      "ranks": {
+        "Highest CVSS 3 first": 984,
+        "EPSS first": 3274,
+        "Public exploit code first, then EPSS": 3741,
+        "Ours (no vendor cap)": 1725,
+        "Ours": 1725
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 119,
+        "EPSS first": 389,
+        "Public exploit code first, then EPSS": 423,
+        "Ours (no vendor cap)": 131,
+        "Ours": 131
+      }
+    },
+    {
+      "id": "CVE-2025-24016",
+      "month": "2025-02",
+      "published": "2025-02-10",
+      "kev_added": "2025-06-10",
+      "lead_days": 102,
+      "vendor": "wazuh",
+      "product": "platform",
+      "epss": 0.0004300000000000001,
+      "code": 1,
+      "desc": "Wazuh is a free and open source platform used for threat prevention, detection, and response. Starting in version 4.4.0 and prior to version 4.9.1, an unsafe deserialization vulnerability allows for remote code execution on Wazuh servers. DistributedAPI parameters are a serialized as JSON and deseri",
+      "ranks": {
+        "Highest CVSS 3 first": 173,
+        "EPSS first": 13240,
+        "Public exploit code first, then EPSS": 547,
+        "Ours (no vendor cap)": 1768,
+        "Ours": 1768
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 13,
+        "EPSS first": 2208,
+        "Public exploit code first, then EPSS": 60,
+        "Ours (no vendor cap)": 155,
+        "Ours": 155
+      }
+    },
+    {
+      "id": "CVE-2025-24893",
+      "month": "2025-02",
+      "published": "2025-02-20",
+      "kev_added": "2025-10-30",
+      "lead_days": 244,
+      "vendor": "xwiki",
+      "product": "platform",
+      "epss": 0.0006399999999999998,
+      "code": 1,
+      "desc": "XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution through a request to `SolrSearch`. This impacts the confidentiality, integrity and availability of the whole XWiki installation. To reproduce",
+      "ranks": {
+        "Highest CVSS 3 first": 1371,
+        "EPSS first": 5241,
+        "Public exploit code first, then EPSS": 360,
+        "Ours (no vendor cap)": 1915,
+        "Ours": 1915
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 76,
+        "EPSS first": 236,
+        "Public exploit code first, then EPSS": 12,
+        "Ours (no vendor cap)": 168,
+        "Ours": 168
+      }
+    },
+    {
+      "id": "CVE-2023-52163",
+      "month": "2025-02",
+      "published": "2025-02-03",
+      "kev_added": "2025-12-22",
+      "lead_days": 297,
+      "vendor": "digiever",
+      "product": "ds-2105 pro",
+      "epss": null,
+      "code": 0,
+      "desc": "Digiever DS-2105 Pro 3.1.0.71-11 devices allow time_tzsetup.cgi Command Injection. NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
+      "ranks": {
+        "Highest CVSS 3 first": 7057,
+        "EPSS first": 34501,
+        "Public exploit code first, then EPSS": 34501,
+        "Ours (no vendor cap)": 2102,
+        "Ours": 2102
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 487,
+        "EPSS first": 3584,
+        "Public exploit code first, then EPSS": 3584,
+        "Ours (no vendor cap)": 201,
+        "Ours": 201
+      }
+    },
+    {
+      "id": "CVE-2025-0411",
+      "month": "2025-01",
+      "published": "2025-01-25",
+      "kev_added": "2025-02-06",
+      "lead_days": 6,
+      "vendor": "7-zip",
+      "product": "7-zip",
+      "epss": null,
+      "code": 0,
+      "desc": "7-Zip Mark-of-the-Web Bypass Vulnerability. This vulnerability allows remote attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of 7-Zip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious ",
+      "ranks": {
+        "Highest CVSS 3 first": 16631,
+        "EPSS first": 32032,
+        "Public exploit code first, then EPSS": 32032,
+        "Ours (no vendor cap)": 2108,
+        "Ours": 2108
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1954,
+        "EPSS first": 2570,
+        "Public exploit code first, then EPSS": 2570,
+        "Ours (no vendor cap)": 252,
+        "Ours": 252
+      }
+    },
+    {
+      "id": "CVE-2025-55177",
+      "month": "2025-08",
+      "published": "2025-08-29",
+      "kev_added": "2025-09-02",
+      "lead_days": 2,
+      "vendor": "incomplete",
+      "product": "whatsapp",
+      "epss": 0.00030000000000000014,
+      "code": 0,
+      "desc": "Incomplete authorization of linked device synchronization messages in WhatsApp for iOS prior to v2.25.21.73, WhatsApp Business for iOS v2.25.21.78, and WhatsApp for Mac v2.25.21.78 could have allowed an unrelated user to trigger processing of content from an arbitrary URL on a target\u2019s device. We as",
+      "ranks": {
+        "Highest CVSS 3 first": 27863,
+        "EPSS first": 22390,
+        "Public exploit code first, then EPSS": 22509,
+        "Ours (no vendor cap)": 2416,
+        "Ours": 2416
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 2789,
+        "EPSS first": 2476,
+        "Public exploit code first, then EPSS": 2495,
+        "Ours (no vendor cap)": 328,
+        "Ours": 328
+      }
+    },
+    {
+      "id": "CVE-2025-47827",
+      "month": "2025-06",
+      "published": "2025-06-05",
+      "kev_added": "2025-10-14",
+      "lead_days": 106,
+      "vendor": "igel",
+      "product": "igel os",
+      "epss": 4.9999999999999996e-05,
+      "code": 1,
+      "desc": "In IGEL OS before 11, Secure Boot can be bypassed because the igel-flash-driver module improperly verifies a cryptographic signature. Ultimately, a crafted root filesystem can be mounted from an unverified SquashFS image.",
+      "ranks": {
+        "Highest CVSS 3 first": 31081,
+        "EPSS first": 31680,
+        "Public exploit code first, then EPSS": 758,
+        "Ours (no vendor cap)": 2587,
+        "Ours": 2587
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3224,
+        "EPSS first": 3622,
+        "Public exploit code first, then EPSS": 73,
+        "Ours (no vendor cap)": 239,
+        "Ours": 239
+      }
+    },
+    {
+      "id": "CVE-2024-53704",
+      "month": "2025-01",
+      "published": "2025-01-09",
+      "kev_added": "2025-02-18",
+      "lead_days": 18,
+      "vendor": "sonicwall",
+      "product": "",
+      "epss": 0.0004300000000000001,
+      "code": 0,
+      "desc": "An Improper Authentication vulnerability in the SSLVPN authentication mechanism allows a remote attacker to bypass authentication.",
+      "ranks": {
+        "Highest CVSS 3 first": 2052,
+        "EPSS first": 11800,
+        "Public exploit code first, then EPSS": 12062,
+        "Ours (no vendor cap)": 2658,
+        "Ours": 2658
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 139,
+        "EPSS first": 1845,
+        "Public exploit code first, then EPSS": 1865,
+        "Ours (no vendor cap)": 346,
+        "Ours": 346
+      }
+    },
+    {
+      "id": "CVE-2025-48384",
+      "month": "2025-07",
+      "published": "2025-07-08",
+      "kev_added": "2025-08-25",
+      "lead_days": 25,
+      "vendor": "git",
+      "product": "",
+      "epss": 0.0001600000000000001,
+      "code": 1,
+      "desc": "Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. When reading a config value, Git strips any trailing carriage return and line feed (CRLF). When writing a config entry, values with a",
+      "ranks": {
+        "Highest CVSS 3 first": 8479,
+        "EPSS first": 28791,
+        "Public exploit code first, then EPSS": 716,
+        "Ours (no vendor cap)": 2843,
+        "Ours": 2843
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1075,
+        "EPSS first": 3362,
+        "Public exploit code first, then EPSS": 103,
+        "Ours (no vendor cap)": 379,
+        "Ours": 379
+      }
+    },
+    {
+      "id": "CVE-2025-3935",
+      "month": "2025-04",
+      "published": "2025-04-25",
+      "kev_added": "2025-06-02",
+      "lead_days": 33,
+      "vendor": "screenconnect",
+      "product": "screenconnect",
+      "epss": 0.0019499999999999993,
+      "code": 0,
+      "desc": "ScreenConnect versions 25.2.3 and earlier versions may be susceptible to a ViewState code injection attack. ASP.NET Web Forms use ViewState to preserve page and control state, with data encoded using Base64 protected by machine keys. It is important to note that to obtain these machine keys, privile",
+      "ranks": {
+        "Highest CVSS 3 first": 14070,
+        "EPSS first": 1721,
+        "Public exploit code first, then EPSS": 2252,
+        "Ours (no vendor cap)": 3164,
+        "Ours": 3164
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1578,
+        "EPSS first": 205,
+        "Public exploit code first, then EPSS": 260,
+        "Ours (no vendor cap)": 324,
+        "Ours": 324
+      }
+    },
+    {
+      "id": "CVE-2025-33073",
+      "month": "2025-06",
+      "published": "2025-06-10",
+      "kev_added": "2025-10-20",
+      "lead_days": 112,
+      "vendor": "microsoft",
+      "product": "",
+      "epss": 0.0032300000000000007,
+      "code": 1,
+      "desc": "Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network.",
+      "ranks": {
+        "Highest CVSS 3 first": 4839,
+        "EPSS first": 1086,
+        "Public exploit code first, then EPSS": 185,
+        "Ours (no vendor cap)": 3284,
+        "Ours": 3284
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 566,
+        "EPSS first": 148,
+        "Public exploit code first, then EPSS": 20,
+        "Ours (no vendor cap)": 290,
+        "Ours": 290
+      }
+    },
+    {
+      "id": "CVE-2025-24054",
+      "month": "2025-03",
+      "published": "2025-03-11",
+      "kev_added": "2025-04-17",
+      "lead_days": 17,
+      "vendor": "microsoft",
+      "product": "",
+      "epss": 0.0012300000000000004,
+      "code": 0,
+      "desc": "External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network.",
+      "ranks": {
+        "Highest CVSS 3 first": 26627,
+        "EPSS first": 2642,
+        "Public exploit code first, then EPSS": 3133,
+        "Ours (no vendor cap)": 7317,
+        "Ours": 7317
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3011,
+        "EPSS first": 297,
+        "Public exploit code first, then EPSS": 335,
+        "Ours (no vendor cap)": 712,
+        "Ours": 712
+      }
+    },
+    {
+      "id": "CVE-2025-21042",
+      "month": "2025-09",
+      "published": "2025-09-12",
+      "kev_added": "2025-11-10",
+      "lead_days": 41,
+      "vendor": "samsung",
+      "product": "",
+      "epss": 0.001979999999999999,
+      "code": 0,
+      "desc": "Out-of-bounds write in libimagecodec.quram.so prior to SMR Apr-2025 Release 1 allows remote attackers to execute arbitrary code.",
+      "ranks": {
+        "Highest CVSS 3 first": 686,
+        "EPSS first": 1685,
+        "Public exploit code first, then EPSS": 2218,
+        "Ours (no vendor cap)": 7651,
+        "Ours": 7651
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 83,
+        "EPSS first": 239,
+        "Public exploit code first, then EPSS": 316,
+        "Ours (no vendor cap)": 985,
+        "Ours": 985
+      }
+    },
+    {
+      "id": "CVE-2025-21043",
+      "month": "2025-09",
+      "published": "2025-09-12",
+      "kev_added": "2025-10-02",
+      "lead_days": 2,
+      "vendor": "samsung",
+      "product": "",
+      "epss": 0.0013699999999999997,
+      "code": 0,
+      "desc": "Out-of-bounds write in libimagecodec.quram.so prior to SMR Sep-2025 Release 1 allows remote attackers to execute arbitrary code.",
+      "ranks": {
+        "Highest CVSS 3 first": 835,
+        "EPSS first": 2416,
+        "Public exploit code first, then EPSS": 2911,
+        "Ours (no vendor cap)": 8113,
+        "Ours": 8113
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 104,
+        "EPSS first": 345,
+        "Public exploit code first, then EPSS": 418,
+        "Ours (no vendor cap)": 1041,
+        "Ours": 1041
+      }
+    },
+    {
+      "id": "CVE-2025-38352",
+      "month": "2025-07",
+      "published": "2025-07-22",
+      "kev_added": "2025-09-04",
+      "lead_days": 35,
+      "vendor": "linux",
+      "product": "kernel",
+      "epss": 0.00031999999999999986,
+      "code": 0,
+      "desc": "In the Linux kernel, the following vulnerability has been resolved: posix-cpu-timers: fix race between handle_posix_cpu_timers() and posix_cpu_timer_del() If an exiting non-autoreaping task has already passed exit_notify() and calls handle_posix_cpu_timers() from IRQ, it can be reaped by its parent ",
+      "ranks": {
+        "Highest CVSS 3 first": 9458,
+        "EPSS first": 20345,
+        "Public exploit code first, then EPSS": 20493,
+        "Ours (no vendor cap)": 9757,
+        "Ours": 9757
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1264,
+        "EPSS first": 2188,
+        "Public exploit code first, then EPSS": 2212,
+        "Ours (no vendor cap)": 1093,
+        "Ours": 1093
+      }
+    },
+    {
+      "id": "CVE-2025-6204",
+      "month": "2025-08",
+      "published": "2025-08-04",
+      "kev_added": "2025-10-28",
+      "lead_days": 58,
+      "vendor": "control",
+      "product": "delmia apriso",
+      "epss": 0.0009499999999999997,
+      "code": 0,
+      "desc": "An Improper Control of Generation of Code (Code Injection) vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could allow an attacker to execute arbitrary code.",
+      "ranks": {
+        "Highest CVSS 3 first": 8386,
+        "EPSS first": 3481,
+        "Public exploit code first, then EPSS": 3940,
+        "Ours (no vendor cap)": 10043,
+        "Ours": 10043
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 979,
+        "EPSS first": 658,
+        "Public exploit code first, then EPSS": 705,
+        "Ours (no vendor cap)": 1132,
+        "Ours": 1132
+      }
+    },
+    {
+      "id": "CVE-2025-27915",
+      "month": "2025-03",
+      "published": "2025-03-12",
+      "kev_added": "2025-10-07",
+      "lead_days": 190,
+      "vendor": "zimbra",
+      "product": "",
+      "epss": 0.00033000000000000005,
+      "code": 0,
+      "desc": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0 and 10.0 and 10.1. A stored cross-site scripting (XSS) vulnerability exists in the Classic Web Client due to insufficient sanitization of HTML content in ICS files. When a user views an e-mail message containing a malicious ICS entry, its emb",
+      "ranks": {
+        "Highest CVSS 3 first": 27435,
+        "EPSS first": 18997,
+        "Public exploit code first, then EPSS": 19150,
+        "Ours (no vendor cap)": 10062,
+        "Ours": 10062
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 3076,
+        "EPSS first": 2061,
+        "Public exploit code first, then EPSS": 2071,
+        "Ours (no vendor cap)": 962,
+        "Ours": 962
+      }
+    },
+    {
+      "id": "CVE-2025-23209",
+      "month": "2025-01",
+      "published": "2025-01-18",
+      "kev_added": "2025-02-20",
+      "lead_days": 20,
+      "vendor": "craft",
+      "product": "",
+      "epss": null,
+      "code": 0,
+      "desc": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. This is an remote code execution (RCE) vulnerability that affects Craft 4 and 5 installs where your security key has already been compromised. Anyone running an unpatched version of Craft with a com",
+      "ranks": {
+        "Highest CVSS 3 first": 8333,
+        "EPSS first": 33037,
+        "Public exploit code first, then EPSS": 33037,
+        "Ours (no vendor cap)": 11952,
+        "Ours": 11952
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 772,
+        "EPSS first": 3575,
+        "Public exploit code first, then EPSS": 3575,
+        "Ours (no vendor cap)": 1429,
+        "Ours": 1429
+      }
+    },
+    {
+      "id": "CVE-2025-25181",
+      "month": "2025-02",
+      "published": "2025-02-03",
+      "kev_added": "2025-03-10",
+      "lead_days": 10,
+      "vendor": "advantive",
+      "product": "veracore",
+      "epss": 0.0004499999999999998,
+      "code": 0,
+      "desc": "A SQL injection vulnerability in timeoutWarning.asp in Advantive VeraCore through 2025.1.0 allows remote attackers to execute arbitrary SQL commands via the PmSess1 parameter.",
+      "ranks": {
+        "Highest CVSS 3 first": 12431,
+        "EPSS first": 10267,
+        "Public exploit code first, then EPSS": 10568,
+        "Ours (no vendor cap)": 14025,
+        "Ours": 14025
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 984,
+        "EPSS first": 1080,
+        "Public exploit code first, then EPSS": 1116,
+        "Ours (no vendor cap)": 1711,
+        "Ours": 1711
+      }
+    },
+    {
+      "id": "CVE-2025-6205",
+      "month": "2025-08",
+      "published": "2025-08-04",
+      "kev_added": "2025-10-28",
+      "lead_days": 58,
+      "vendor": "delmia",
+      "product": "delmia apriso",
+      "epss": 0.0003899999999999999,
+      "code": 0,
+      "desc": "A missing authorization vulnerability affecting DELMIA Apriso from Release 2020 through Release 2025 could allow an attacker to gain privileged access to the application.",
+      "ranks": {
+        "Highest CVSS 3 first": 4517,
+        "EPSS first": 15867,
+        "Public exploit code first, then EPSS": 16043,
+        "Ours (no vendor cap)": 20710,
+        "Ours": 20710
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 529,
+        "EPSS first": 1642,
+        "Public exploit code first, then EPSS": 1672,
+        "Ours (no vendor cap)": 2192,
+        "Ours": 2192
+      }
+    },
+    {
+      "id": "CVE-2024-57968",
+      "month": "2025-02",
+      "published": "2025-02-03",
+      "kev_added": "2025-03-10",
+      "lead_days": 10,
+      "vendor": "advantive",
+      "product": "veracore",
+      "epss": 0.0004499999999999998,
+      "code": 0,
+      "desc": "Advantive VeraCore before 2024.4.2.1 allows remote authenticated users to upload files to unintended folders (e.g., ones that are accessible during web browsing by other users). upload.aspx can be used for this.",
+      "ranks": {
+        "Highest CVSS 3 first": 5917,
+        "EPSS first": 9996,
+        "Public exploit code first, then EPSS": 10301,
+        "Ours (no vendor cap)": 22773,
+        "Ours": 22773
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 389,
+        "EPSS first": 809,
+        "Public exploit code first, then EPSS": 849,
+        "Ours (no vendor cap)": 2394,
+        "Ours": 2394
+      }
+    },
+    {
+      "id": "CVE-2025-32463",
+      "month": "2025-06",
+      "published": "2025-06-30",
+      "kev_added": "2025-09-29",
+      "lead_days": 91,
+      "vendor": "sudo",
+      "product": "sudo",
+      "epss": null,
+      "code": 0,
+      "desc": "Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.",
+      "ranks": {
+        "Highest CVSS 3 first": 10874,
+        "EPSS first": 35055,
+        "Public exploit code first, then EPSS": 35055,
+        "Ours (no vendor cap)": 30228,
+        "Ours": 30228
+      },
+      "mranks": {
+        "Highest CVSS 3 first": 1287,
+        "EPSS first": 3655,
+        "Public exploit code first, then EPSS": 3655,
+        "Ours (no vendor cap)": 3273,
+        "Ours": 3273
+      }
+    }
+  ]
+}
